@@ -12,9 +12,6 @@ const { onSearch} = props;
     setId("");
   };
 
-  const onDeleteAll = () => {
-  }
-
   const handleChange = (e) => {
     setId(e.target.value);
   };
